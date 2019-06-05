@@ -61,6 +61,17 @@
     "delete": { "effects": [ "NEVER_MISFIRES" ] }
   },
   {
+    "id": "reloaded_50bmg_hp",
+    "copy-from": "50bmg",
+    "type": "AMMO",
+    "name": "reloaded .50 BMG Hollowpoint",
+    "description": "The .50 BMG is a very powerful rifle round designed for long-range use.  Its stupendous accuracy and armor piercing capabilities make it one of the most deadly rounds available, offset only by its drastic recoil and noise.  This one has been hand-reloaded with a 647gr solid copper hollowpoint.",
+    "proportional": { "price": 0.8, "damage": 1.2, "dispersion": 1.05 },
+    "relative": { "pierce": -24 },
+    "extend": { "effects": [ "RECYCLED" ] },
+    "delete": { "effects": [ "NEVER_MISFIRES" ] }
+  },
+  {
     "id": "reloaded_50ss",
     "copy-from": "50ss",
     "type": "AMMO",

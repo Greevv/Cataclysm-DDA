@@ -36,6 +36,17 @@
     "delete": { "effects": [ "NEVER_MISFIRES" ] }
   },
   {
+    "id": "reloaded_shot_frag",
+    "copy-from": "shot_slug",
+    "type": "AMMO",
+    "name": "reloaded shotgun HEF slug",
+    "description": "Hand-loaded high explosive fragmentation slug. It's a hollowpoint slug filled with RDX, detonated by a shotgun primer fitted in the nose.",
+    "proportional": { "price": 1.5, "damage": 1.4, "dispersion": 1.2 },
+    "extend": { "effects": [ "RECYCLED", "EXPLOSIVE_CUSTOM" ] },
+    "explosion": { "power": 8, "distance_factor": 0.8, "shrapnel": 20 },
+    "delete": { "effects": [ "NEVER_MISFIRES" ] }
+  },
+  {
     "id": "shot_00",
     "type": "AMMO",
     "name": "00 shot",
